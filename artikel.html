@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artikel — Website Ahmad Barak</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="header-dalam">
+            <a href="index.html" class="logo-site">Ahmad<span>Barak</span>.id</a>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Beranda</a></li>
+                    <li><a href="profil.html">Profil</a></li>
+                    <li><a href="galeri.html">Galeri</a></li>
+                    <li><a href="artikel.html" class="aktif">Artikel</a></li>
+                    <li><a href="kontak.html">Kontak</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <div class="wrapper-artikel">
+
+            <h1 class="judul-artikel">Belajar HTML & CSS dari Nol: Pengalaman Pertama Membuat Website</h1>
+
+            <div class="meta-artikel">
+                <span> Ahmad Barak</span>
+                <span> Mei 2026</span>
+                <span> Web Development</span>
+            </div>
+
+            <img
+                src="img5.jpg"
+                alt="Belajar HTML dan CSS"
+                class="gambar-artikel"
+            >
+
+            <p>
+                Pertama kali saya mendengar kata "HTML", yang ada di bayangan saya cuma sekumpulan
+                kode aneh yang nggak ada artinya. Waktu itu saya masih kelas X, baru masuk jurusan
+                RPL dan belum tahu sama sekali soal pemrograman web. Tapi setelah beberapa bulan
+                belajar — dan pastinya banyak trial-error — akhirnya saya mulai paham bahwa HTML
+                itu ternyata tidak sesusah yang dibayangkan. Bahkan bisa dibilang, HTML adalah
+                bahasa pemrograman yang paling ramah untuk pemula.
+            </p>
+
+            <p>
+                HTML atau <em>HyperText Markup Language</em> adalah bahasa dasar yang digunakan
+                untuk membangun struktur halaman web. Sederhananya, kalau website itu ibarat
+                sebuah rumah, maka HTML adalah rangka atau fondasi bangunannya. Setiap elemen
+                yang kita lihat di sebuah halaman web — judul, paragraf, gambar, tombol, tabel —
+                semuanya dibuat menggunakan tag-tag HTML. Dan yang lebih menarik lagi, kita bisa
+                langsung melihat hasilnya di browser tanpa perlu install apapun yang rumit.
+            </p>
+
+            <h2>Apa Itu Tag HTML dan Cara Kerjanya?</h2>
+
+            <p>
+                Tag HTML ditulis di antara tanda kurung siku, misalnya <code>&lt;p&gt;</code>
+                untuk paragraf atau <code>&lt;h1&gt;</code> untuk judul utama. Setiap tag
+                pembuka biasanya punya pasangan tag penutup yang ditandai dengan garis miring,
+                seperti <code>&lt;/p&gt;</code>. Konten yang ingin ditampilkan ditulis di antara
+                kedua tag tersebut. Berikut contoh sederhana yang pertama kali saya coba waktu
+                belajar:
+            </p>
+
+            <div class="contoh-kode">
+&lt;!DOCTYPE html&gt;<br>
+&lt;html lang="id"&gt;<br>
+&nbsp;&nbsp;&lt;head&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;title&gt;Website Pertamaku&lt;/title&gt;<br>
+&nbsp;&nbsp;&lt;/head&gt;<br>
+&nbsp;&nbsp;&lt;body&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;h1&gt;Halo, ini website pertama saya!&lt;/h1&gt;<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;p&gt;Saya baru belajar HTML.&lt;/p&gt;<br>
+&nbsp;&nbsp;&lt;/body&gt;<br>
+&lt;/html&gt;
+            </div>
+
+            <p>
+                Waktu kode ini berhasil tampil di browser dan saya lihat tulisan "Halo, ini website
+                pertama saya!" muncul di layar — rasanya luar biasa. Padahal kodenya cuma belasan
+                baris, tapi perasaan senangnya tidak bisa dijelasin dengan kata-kata. Dari situ
+                saya semakin penasaran dan terus belajar lebih jauh.
+            </p>
+
+            <h2>Kenalan dengan CSS: Mengubah Tampilan Jadi Lebih Cantik</h2>
+
+            <p>
+                Kalau HTML adalah rangka rumah, maka CSS (<em>Cascading Style Sheets</em>) adalah
+                cat dinding, furnitur, dan dekorasinya. CSS bertugas mengatur tampilan visual dari
+                elemen HTML — mulai dari warna, ukuran font, jarak antar elemen, sampai layout
+                halaman secara keseluruhan. Tanpa CSS, website akan terlihat polos dan membosankan
+                seperti dokumen teks biasa.
+            </p>
+
+            <p>
+                Yang paling saya suka dari CSS adalah fitur Flexbox dan Grid. Dua teknik ini
+                memungkinkan kita mengatur posisi elemen dengan sangat fleksibel. Misalnya,
+                navigasi horizontal di bagian atas website ini dibuat menggunakan Flexbox —
+                cukup tambahkan <code>display: flex</code> pada kontainernya, dan elemen-elemen
+                di dalamnya otomatis tersusun secara horizontal. Sederhana tapi powerful banget.
+            </p>
+
+            <h2>Tips untuk Teman-Teman yang Baru Belajar Web</h2>
+
+            <h3>1. Mulai dari yang Kecil</h3>
+            <p>
+                Jangan langsung coba buat website yang kompleks. Mulai dari halaman sederhana
+                dulu — satu file HTML dengan beberapa tag dasar. Setelah itu tambahkan satu per
+                satu fitur yang kamu pelajari. Progres kecil yang konsisten lebih baik daripada
+                buru-buru tapi hasilnya nggak dipahami.
+            </p>
+
+            <h3>2. Jangan Takut Error</h3>
+            <p>
+                Error adalah bagian dari proses belajar. Waktu belajar, saya pernah frustrasi
+                karena layout berantakan gara-gara lupa tutup satu tag. Tapi justru dari situ
+                saya jadi lebih teliti dan hafal struktur HTML dengan lebih baik. Setiap error
+                yang berhasil dipecahkan itu sebenarnya adalah ilmu baru yang kita dapatkan.
+            </p>
+
+            <h3>3. Latihan dengan Proyek Nyata</h3>
+            <p>
+                Teori saja tidak cukup. Saya baru benar-benar paham HTML dan CSS setelah mulai
+                membuat proyek sendiri, termasuk website ini. Coba buat website profil diri,
+                halaman biodata, atau portofolio sederhana. Dengan punya tujuan yang konkret,
+                proses belajarnya jadi jauh lebih menyenangkan dan terasa bermakna.
+            </p>
+
+            <p>
+                Belajar web development memang butuh waktu dan kesabaran, tapi hasilnya sangat
+                memuaskan. Saya sendiri masih banyak yang harus dipelajari — JavaScript, PHP,
+                framework, dan banyak lagi. Tapi yang penting adalah tidak berhenti dan terus
+                berlatih. Semangat untuk teman-teman yang juga sedang belajar! 
+            </p>
+
+        </div>
+
+    </main>
+
+    <footer>
+        <p>
+            &copy; 2026 <strong>Ahmad Barak</strong> &mdash; Absen 02, Kelas X RPL 1 &mdash;
+            <strong>SMK PGRI 2 Ponorogo</strong>
+        </p>
+    </footer>
+
+</body>
+</html>
